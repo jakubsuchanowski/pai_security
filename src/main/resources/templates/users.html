@@ -17,7 +17,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr th:each="user : ${Nazwa}">
+    <tr th:each="user : ${lista}">
         <td><span th:text="${user.name}"> Imie </span></td>
         <td><span th:text="${user.surname}"> Nazwisko </span></td>
         <td><span th:text="${user.login}"> Login </span></td>
