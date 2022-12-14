@@ -99,7 +99,7 @@ public class UserController {
         user.setLogin(user.getLogin());
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         dao.save(user);
-        return "redirect:/users";
+        return "redirect:/logout";
     }
 }
 
